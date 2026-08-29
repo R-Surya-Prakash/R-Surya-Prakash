@@ -2,95 +2,77 @@
   <img src="./assets/surya-banner.svg" width="100%" alt="Surya Prakash — Senior Software Developer" />
 </div>
 
-<div align="center">
+<p align="center">
+  <a href="https://www.linkedin.com/in/rsuryaprakash"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:suryaviper3@gmail.com"><img src="https://img.shields.io/badge/suryaviper3%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rsuryaprakash)
-[![Email](https://img.shields.io/badge/Email-Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:suryaviper3@gmail.com)
+### Senior Software Developer · Frappe / ERPNext · Enterprise Integrations
 
-</div>
-
-## `whoami`
-
-I'm **Surya Prakash**, a **Senior Software Developer** who turns complex business workflows into focused, dependable software.
-
-My home ground is the **Frappe Framework and ERPNext**—designing custom applications, integrations, reports, automations, and industry-specific workflows that make ERP fit the business, rather than forcing the business to fit the ERP.
-
-```python
-surya = {
-    "role": "Senior Software Developer",
-    "craft": ["Frappe", "ERPNext", "Business Automation", "Integrations"],
-    "currently_building": [
-        "an AI chatbot native to the Frappe ecosystem",
-        "an SAP-to-Frappe migration and integration toolkit",
-    ],
-    "philosophy": "Understand the workflow. Simplify it. Automate what remains.",
-}
-```
-
-## What I build
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧩 ERP that fits</h3>
-      Custom Frappe and ERPNext applications shaped around real operational workflows—from manufacturing, stock, and HR to portals and reporting.
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔌 Systems that talk</h3>
-      Practical integrations spanning enterprise systems, banking and payments, messaging, biometric devices, and external APIs.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 AI inside the workflow</h3>
-      Building conversational AI as a native part of Frappe—where assistants can work with business context instead of living in a separate tab.
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔄 SAP × Frappe</h3>
-      Developing migration tooling for schema discovery, source-data exploration, controlled migration runs, validation, and traceable errors.
-    </td>
-  </tr>
-</table>
-
-## My engineering orbit
-
-<div align="center">
-
-![Frappe](https://img.shields.io/badge/Frappe-0089FF?style=for-the-badge&logo=frappe&logoColor=white)
-![ERPNext](https://img.shields.io/badge/ERPNext-0089FF?style=for-the-badge&logo=erpnext&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111827)
-![OpenAI](https://img.shields.io/badge/AI_Assistants-412991?style=for-the-badge&logo=openai&logoColor=white)
-![SAP](https://img.shields.io/badge/SAP_Integration-0FAAFF?style=for-the-badge&logo=sap&logoColor=white)
-
-</div>
-
-## The trail so far
+I engineer business systems where ERP, external platforms, and operational workflows meet. My work is centered on the **Frappe Framework and ERPNext**, with a focus on maintainable custom applications, integration architecture, and automation that survives real production use.
 
 ```text
-business need
-    └── workflow discovery
-         └── Frappe / ERPNext design
-              ├── custom apps & reports
-              ├── portals & automations
-              ├── payments & external APIs
-              └── AI + enterprise integrations  ← building here now
+requirements → domain model → Frappe application → integration layer → observable workflow
 ```
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=R-Surya-Prakash&show_icons=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=A78BFA&text_color=C9D1D9&rank_icon=github" height="165" alt="Surya's GitHub statistics" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=R-Surya-Prakash&hide_border=true&background=0D1117&ring=38BDF8&fire=F97316&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" height="165" alt="Surya's contribution streak" />
-</div>
+### Engineering focus
 
----
+```yaml
+erp_engineering:
+  - custom Frappe applications and ERPNext modules
+  - manufacturing, inventory, HR, finance and approval workflows
+  - reports, portals, background jobs and production automation
 
-<div align="center">
-  <strong>Have a complicated workflow?</strong><br />
-  That's usually where the interesting engineering begins.<br /><br />
-  <a href="mailto:suryaviper3@gmail.com">Let's build something useful.</a>
-</div>
+integration_engineering:
+  - bank integrations over REST APIs and SFTP
+  - payment processing, reconciliation and secure file exchange
+  - biometric devices, messaging platforms and third-party services
 
+product_engineering:
+  - React applications backed by Frappe APIs for an IIT platform
+  - role-aware interfaces and end-to-end business workflows
+  - API design, authentication and asynchronous processing
+```
+
+### Currently building
+
+| System | Engineering scope |
+| --- | --- |
+| **AI assistant for Frappe** | A context-aware chatbot integrated into Frappe Desk, with configurable providers, business-aware responses, and native UI workflows. |
+| **SAP → Frappe integration** | A migration toolkit covering SQL Server connectivity, schema discovery, source-data exploration, controlled migration runs, validation, tests, and traceable error handling. |
+
+### Selected systems delivered
+
+| Domain | What I have engineered |
+| --- | --- |
+| **ERP & operations** | Industry-specific ERPNext customizations across manufacturing, stock, procurement, HR, finance, reporting, and approval lifecycles. |
+| **Banking & payments** | Multiple bank integrations using APIs and SFTP, including payment initiation, status handling, secure exchange, and reconciliation-oriented workflows. |
+| **Portals & applications** | Vendor-facing portals and React-based applications connected to Frappe as the business and API layer. |
+| **Enterprise migration** | Tools for inspecting legacy schemas and moving structured enterprise data into governed Frappe workflows. |
+| **Communication & devices** | Telegram automation, configurable alerting, biometric-device integration, and external service orchestration. |
+| **Platform extensions** | Reusable DocTypes, reports, fixtures, background tasks, hooks, APIs, tests, and upgrade-safe custom applications. |
+
+### Stack
+
+```text
+Backend       Python · Frappe Framework · ERPNext · REST APIs · Background Jobs
+Frontend      JavaScript · React · Frappe Desk · HTML · CSS
+Data          MariaDB · SQL · Microsoft SQL Server · Redis
+Integration   REST · SFTP · ODBC · Webhooks · Banking APIs · SAP
+Operations    Linux · Git · Bench · Nginx · Supervisor
+```
+
+### How I approach a system
+
+```python
+def engineer(workflow):
+    domain = understand(workflow)
+    boundaries = design_for_change(domain)
+    system = automate(boundaries, with_observability=True)
+    return ship(system, tested=True, maintainable=True)
+```
+
+<p align="center">
+  <strong>Complex workflow. Clear model. Reliable automation.</strong><br />
+  <a href="mailto:suryaviper3@gmail.com">suryaviper3@gmail.com</a>
+</p>
