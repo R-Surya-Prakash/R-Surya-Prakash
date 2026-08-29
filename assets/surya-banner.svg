@@ -31,7 +31,10 @@
     <path d="M22 25L11 36L22 47M50 25L61 36L50 47M42 17L30 55" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
   </g>
 
-  <text x="92" y="205" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="48" font-weight="700">Surya Prakash</text>
+  <text x="92" y="205" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="54" font-weight="700">
+    Surya
+    <animate attributeName="letter-spacing" values="0;5;0" dur="4s" repeatCount="indefinite"/>
+  </text>
   <text x="94" y="244" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">Senior Software Developer</text>
   <rect x="94" y="268" width="505" height="3" rx="1.5" fill="url(#accent)">
     <animate attributeName="width" values="40;505;505;40" keyTimes="0;.35;.8;1" dur="6s" repeatCount="indefinite"/>
@@ -43,10 +46,18 @@
     <rect x="746" y="88" width="337" height="34" fill="#121C2B"/>
     <circle cx="767" cy="105" r="5" fill="#FF5F57"/><circle cx="784" cy="105" r="5" fill="#FEBB2E"/><circle cx="801" cy="105" r="5" fill="#28C840"/>
     <text x="832" y="110" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">surya@frappe</text>
-    <text x="765" y="151" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">❯ architect --for production</text>
-    <text x="765" y="181" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">✓ model(business_domain)</text>
-    <text x="765" y="211" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">✓ integrate(enterprise)</text>
-    <text x="765" y="241" fill="#F97316" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">● automate(reliably)</text>
+    <text x="765" y="151" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">❯ surya.build()
+      <animate attributeName="opacity" values="0;1;1" keyTimes="0;.15;1" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="765" y="181" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">✓ understand(workflow)
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.18;.32;1" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="765" y="211" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">✓ connect(systems)
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.40;.54;1" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="765" y="241" fill="#F97316" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">● automate(everything)
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.60;.74;.94;1" dur="4s" repeatCount="indefinite"/>
+    </text>
     <rect x="974" y="228" width="9" height="17" fill="#F97316">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </rect>
