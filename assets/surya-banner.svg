@@ -1,0 +1,54 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0D172A"/>
+      <stop offset="1" stop-color="#111027"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="185" y1="78" x2="1015" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#A78BFA;#38BDF8" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#A78BFA">
+        <animate attributeName="stop-color" values="#A78BFA;#F97316;#A78BFA" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="terminalClip"><rect x="746" y="88" width="337" height="190" rx="14"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <circle cx="91" cy="70" r="2" fill="#38BDF8"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="1127" cy="93" r="3" fill="#A78BFA"><animate attributeName="opacity" values="1;.2;1" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="1069" cy="298" r="2" fill="#F97316"><animate attributeName="opacity" values=".3;1;.3" dur="2.7s" repeatCount="indefinite"/></circle>
+  <path d="M0 310C230 260 390 350 615 302C825 257 975 285 1200 226" stroke="url(#accent)" stroke-opacity=".18" stroke-width="2"/>
+
+  <g transform="translate(92 85)">
+    <rect width="72" height="72" rx="18" fill="url(#accent)" opacity=".16"/>
+    <path d="M22 25L11 36L22 47M50 25L61 36L50 47M42 17L30 55" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  </g>
+
+  <text x="92" y="205" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="48" font-weight="700">Surya Prakash</text>
+  <text x="94" y="244" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">Senior Software Developer</text>
+  <rect x="94" y="268" width="505" height="3" rx="1.5" fill="url(#accent)">
+    <animate attributeName="width" values="40;505;505;40" keyTimes="0;.35;.8;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="94" y="302" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">FRAPPE • ERPNEXT • AI • ENTERPRISE INTEGRATIONS</text>
+
+  <g clip-path="url(#terminalClip)">
+    <rect x="746" y="88" width="337" height="190" rx="14" fill="#050A12" stroke="#263449"/>
+    <rect x="746" y="88" width="337" height="34" fill="#121C2B"/>
+    <circle cx="767" cy="105" r="5" fill="#FF5F57"/><circle cx="784" cy="105" r="5" fill="#FEBB2E"/><circle cx="801" cy="105" r="5" fill="#28C840"/>
+    <text x="832" y="110" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">surya@frappe</text>
+    <text x="765" y="151" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">❯ bench create-app future</text>
+    <text x="765" y="181" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">✓ understand(workflow)</text>
+    <text x="765" y="211" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">✓ integrate(systems)</text>
+    <text x="765" y="241" fill="#F97316" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">● build(useful_things)</text>
+    <rect x="974" y="228" width="9" height="17" fill="#F97316">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
